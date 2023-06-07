@@ -26,7 +26,7 @@ class App extends Component {
       <Switch>
       <Route exact path="/"  component={Home} />
       <Route  path="/about" component={About} />
-      <Route  path="/contact" component={Contact} />
+      <Route  path="https://cincy-tour.onrender.com/contact" component={Contact} />
       <Route  path="/familyfun" component={FamilyFun} />
       <Route  path="/artsmusic" component={ArtsMusic} />
       <Route  path="/fooddrink" component={FoodDrink} />
