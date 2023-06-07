@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import {Link} from 'react-router-dom'
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { BACKEND_URL } from '../config';
 
 const Contact = () => {
     // State variables using useState
@@ -49,7 +50,7 @@ const Contact = () => {
       if (submitClicked) {
         setLoading(true); // Set loading flag to true
         axios
-          .get('https://backend-pt23.adaptable.app/attractions') // Fetch data from the specified URL
+          .get(BACKEND_URL + 'attractions') // Fetch data from the specified URL
          // Fetch data from the specified URL
           .then((response) => {
             const attractions = response.data; // Extract data from the response
