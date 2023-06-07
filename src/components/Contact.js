@@ -49,7 +49,7 @@ const Contact = () => {
       if (submitClicked) {
         setLoading(true); // Set loading flag to true
         axios
-          .get('http://localhost:5000/attractions/') // Fetch data from the specified URL
+          .get('https://cincy-tour-backend.onrender.com/attractions') // Fetch data from the specified URL
          // Fetch data from the specified URL
           .then((response) => {
             const attractions = response.data; // Extract data from the response
