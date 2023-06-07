@@ -1,6 +1,7 @@
 import React from 'react';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import WeatherDropdown from './WeatherDropdown';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
       <div>
@@ -24,7 +25,7 @@ const Navbar = () => {
               <NavDropdown.Item href="/sports">Sports & Gaming</NavDropdown.Item>
               </NavDropdown>
           </div>
-           <div className="col-lg-3"><a className="nav-link" href="/contact"><h4><b>CONTACT</b></h4></a></div>
+           <div className="col-lg-3"><Link className="nav-link" to="/contact"><h4><b>CONTACT</b></h4></Link></div>
             <div className="col-lg-3"><a className="nav-link" href="/about"><h4><b>ABOUT</b></h4></a></div>
             <div className="col-lg-1"><WeatherDropdown /></div>
         </div></div></div>
