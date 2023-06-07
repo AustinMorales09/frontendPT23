@@ -24,7 +24,7 @@ const Navbar = () => {
               <NavDropdown.Item href="/sports">Sports & Gaming</NavDropdown.Item>
               </NavDropdown>
           </div>
-           <div className="col-lg-3"><a className="nav-link" href="/contact"><h4><b>CONTACT</b></h4></a></div>
+           <div className="col-lg-3"><a className="nav-link" href="https://cincy-tour.onrender.com/contact"><h4><b>CONTACT</b></h4></a></div>
             <div className="col-lg-3"><a className="nav-link" href="/about"><h4><b>ABOUT</b></h4></a></div>
             <div className="col-lg-1"><WeatherDropdown /></div>
         </div></div></div>
